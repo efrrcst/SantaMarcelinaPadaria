@@ -1,4 +1,4 @@
-/*------------ SHOW MENU-------------*/
+/*--  SHOW MENU  --*/
 const showMneu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
         nav = document.getElementById(navId)
@@ -10,7 +10,7 @@ const showMneu = (toggleId, navId) => {
 }
 showMneu('nav-toggle', 'nav-menu')
 
-/*------------ REMOVER MENU MOBILE-------------*/
+/*-- REMOVER MENU MOBILE ---*/
 const navLink = document.querySelectorAll('.nav__link')
 function linkAction() {
     const navMenu = document.getElementById('nav-menu')
@@ -18,7 +18,7 @@ function linkAction() {
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*==================== DEIXA O LINK CLICADO COM A CLASS ACTIVE-LINK ====================*/
+/*==  DEIXA O LINK CLICADO COM A CLASS ACTIVE-LINK  ==*/
 const linkColor = document.querySelectorAll('.nav__link')
 
 function colorLink(){
@@ -30,14 +30,14 @@ function colorLink(){
 
 linkColor.forEach(L=> L.addEventListener('click', colorLink))
 
-/*------------BOX SHADOW NO HEADER-------------*/
+/*-- BOX SHADOW NO HEADER --*/
 function scrollHeader(){
     const scrollHeader = document.getElementById('header');
     if(this.scrollY >= 200) scrollHeader.classList.add('scroll-header'); else scrollHeader.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
 
-/*------------SHOW SCROLL TOP------------- */
+/*-- SHOW SCROLL TOP -- */
 function scrollTop(){
     const scrollTop = document.getElementById('scroll-top');
     if(this.scrollY >= 560) scrollTop.classList.add('scroll-top'); else scrollTop.classList.remove('scroll-top')
