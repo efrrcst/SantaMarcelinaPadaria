@@ -1,7 +1,7 @@
 # Website de uma padaria responsiva
 
 Design de um site responsivo basiquinho para padaria Santa Marcelina. Ele contém barra de navegação, home, sobre, cardápio, contato e rodapé.
-Desenvolvido inicialmente para dispositivos móveis e depois para desktop.
+Desenvolvido inicialmente para dispositivos móveis e depois para desktop
 
 # Base de conhecimento
 - Conteúdo das aulas de PW - Ciência da Computação Senac
